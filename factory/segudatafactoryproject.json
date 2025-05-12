@@ -1,0 +1,9 @@
+{
+	"name": "segudatafactoryproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a95e2390-eb4a-4f7f-bf37-5d1eef4c57a2",
+		"tenantId": "2d6c785b-ced3-4397-92e1-c8e44565427e"
+	}
+}
