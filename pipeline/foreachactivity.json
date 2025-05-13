@@ -41,7 +41,7 @@
 										"recursive": true,
 										"wildcardFolderPath": "raw",
 										"wildcardFileName": {
-											"value": "@item()",
+											"value": "@item().name",
 											"type": "Expression"
 										},
 										"enablePartitionDiscovery": false
