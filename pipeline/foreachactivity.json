@@ -38,7 +38,12 @@
 									"type": "DelimitedTextSource",
 									"storeSettings": {
 										"type": "AzureBlobFSReadSettings",
-										"fileListPath": "data/raw",
+										"recursive": true,
+										"wildcardFolderPath": {
+											"value": "@item()",
+											"type": "Expression"
+										},
+										"wildcardFileName": "*",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
