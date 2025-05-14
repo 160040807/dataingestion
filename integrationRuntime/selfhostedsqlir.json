@@ -1,0 +1,6 @@
+{
+	"name": "selfhostedsqlir",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
